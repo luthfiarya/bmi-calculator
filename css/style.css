@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:  ghostwhite;
+}
+
+.container{
+    font-family: Poppins,'Sans Serif';
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-kalkulator{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.result{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.kalkulator p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-kalkulator{
+    padding: 20px;
+}
+
+#form-kalkulator input{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.k1, .k2{
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.penyakit{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.result{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.result button{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: mediumturquoise;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.explanation{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result-header{
+    margin-top: 50px;
+}
+
+.divider{
+    font-size: 40px;
+    text-align: center;
+}
+
+.penyakit h2{
+    margin-bottom: 10px;
+}
+
+.penyakit button, .explanation button, #result button{
+    margin-top: 15px;
+    padding: 7px;
+    background-color: mediumturquoise;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#button-konsul{
+    margin-right: 10px;
+}
+
+.keunggulan ol{
+    margin: 15px;
+}
+
+.explanation p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.keunggulan h2{
+    margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.button-form button{
+    background-color: mediumturquoise;
+    border: none;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: Poppins, 'Sans Serif';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#result{
+    display: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#result p{
+    text-align: center;
+    font-size: medium;
+}
+
+#result h2{
+    text-align: center;
+}
+
+#result button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 300;
+}
+
+
